@@ -1,7 +1,0 @@
-## Start of configuration add by letsencrypt container
-location /.well-known/ {
-    auth_basic off;
-    root /usr/share/nginx/html;
-    try_files $uri =404;
-}
-## End of configuration add by letsencrypt container
